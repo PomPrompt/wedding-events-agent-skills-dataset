@@ -1,0 +1,130 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "PomPrompt Wedding & Events Agent Skills - Discovery Dataset 01",
+  "description": "Link-only discovery records: not a validated, licensed, security-scanned or tested Skill dataset.",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "additionalProperties": false,
+    "required": [
+      "id",
+      "skill_name",
+      "skill_url",
+      "source_website",
+      "discovery_page_url",
+      "primary_category",
+      "tags",
+      "relevance_tier",
+      "scope",
+      "short_description",
+      "discovered_at",
+      "link_check_status",
+      "evidence_url",
+      "notes"
+    ],
+    "properties": {
+      "id": {
+        "type": "string",
+        "pattern": "^WES-[0-9]{4,}$"
+      },
+      "skill_name": {
+        "type": "string",
+        "minLength": 2
+      },
+      "skill_url": {
+        "type": "string",
+        "format": "uri",
+        "pattern": "^https?://"
+      },
+      "source_website": {
+        "type": "string",
+        "minLength": 2
+      },
+      "discovery_page_url": {
+        "type": "string",
+        "format": "uri",
+        "pattern": "^https?://"
+      },
+      "primary_category": {
+        "type": "string",
+        "enum": [
+          "C01",
+          "C02",
+          "C03",
+          "C04",
+          "C05",
+          "C06",
+          "C07",
+          "C08",
+          "C09",
+          "C10",
+          "C11",
+          "C12",
+          "C13",
+          "C14",
+          "C15",
+          "C16",
+          "C17",
+          "C18",
+          "C19",
+          "C20",
+          "C21"
+        ]
+      },
+      "tags": {
+        "type": "array",
+        "items": {
+          "type": "string"
+        },
+        "uniqueItems": true
+      },
+      "relevance_tier": {
+        "type": "string",
+        "enum": [
+          "A",
+          "B",
+          "C"
+        ]
+      },
+      "scope": {
+        "type": "string",
+        "enum": [
+          "wedding_specific",
+          "wedding_and_other_events",
+          "general_events_with_wedding_use",
+          "general_photography_wedding_use",
+          "general_video_wedding_use",
+          "adaptable_not_explicit_wedding",
+          "general_events_not_explicit_wedding",
+          "other_explicit_event_use"
+        ]
+      },
+      "short_description": {
+        "type": "string",
+        "maxLength": 320
+      },
+      "discovered_at": {
+        "type": "string",
+        "format": "date"
+      },
+      "link_check_status": {
+        "type": "string",
+        "enum": [
+          "page_observed",
+          "http_verified",
+          "search_result_only",
+          "inaccessible",
+          "broken"
+        ]
+      },
+      "evidence_url": {
+        "type": "string",
+        "format": "uri",
+        "pattern": "^https?://"
+      },
+      "notes": {
+        "type": "string"
+      }
+    }
+  }
+}

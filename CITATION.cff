@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+type: dataset
+message: "Please cite the exact release version of this discovery dataset; use the Zenodo version DOI after one is actually assigned."
+title: "Wedding & Events AI Agent Skills: A Public Discovery Dataset — Dataset 01"
+authors:
+  - name: "PomPrompt"
+version: 1.0.0
+license: CC-BY-4.0
+repository-code: "https://github.com/PomPrompt/wedding-events-agent-skills-dataset"
+abstract: "Link-only discovery dataset of 45 publicly observed agent skill pages with explicit wedding relevance, recorded source evidence, categories and historical observation status. No execution, safety or compatibility tests."
+keywords:
+  - AI agent skills
+  - wedding planning
+  - event planning
+  - discovery dataset
+  - source provenance
+# This repository URL is a suggested destination, not proof it has been created.
+# Add date-released only on the real release date.
+# Add a DOI only after Zenodo has actually issued one.

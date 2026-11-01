@@ -1,0 +1,22 @@
+﻿category_id,primary_category,topic_seed,keyword_variants,inclusion_intent
+C01,Wedding Planning & Checklists,wedding planner,wedding planning|wedding checklist|wedding brief,Couple and planner workflows
+C02,Timelines & Run of Show,run of show,wedding timeline|day-of|run sheet|ceremony schedule,Timings buffers roles
+C03,Wedding Budgeting,budget,wedding budget|cost breakdown|expense planner,Wedding expenses and scenarios
+C04,Guest Lists & RSVP,guest management,RSVP|guest list|attendee tracking|invitations tracking,Guest management workflows
+C05,Seating & Tables,seating,seating chart|table assignment|seating constraints,Seating workflow
+C06,Wedding Invitation Design,invitation design,invitation card|wedding invitation|save the date,Design and layout of invitations
+C07,Invitation Copywriting,invitation wording,invitation wording|wedding stationery copy|RSVP text,Writing invite copy
+C08,Wedding Photography Planning,photo planning,wedding photo|shot list|photo poses|couple portrait,Photo shoot concepts and direction
+C09,AI Wedding Image Creation,image generation,AI wedding photo|bridal portrait|couple image generation,Skill instructions for image creation or editing
+C10,Wedding Video & Highlights,video,wedding highlight|reel|video montage|video editing,Wedding video workflows
+C11,Wedding Decoration & Styling,decoration,floral|wedding decor|moodboard|centerpiece,Visual styling workflows
+C12,Venues & Vendor Management,vendors,wedding vendors|supplier brief|venue selection,Supplier comparison and coordination
+C13,Contracts & Documents,contracts,wedding contract|venue contract|vendor contract,Document analysis and preparation
+C14,Ceremony Scripts & Speeches,ceremony copy,ceremony script|wedding vows|wedding speech,Ceremony creative writing
+C15,Menus & Catering,catering,wedding menu|dietary|seating meal|caterer,Menu planning
+C16,Wedding Websites & Digital Assets,digital website,wedding site|wedding landing page|digital invitation,Wedding-specific digital web assets
+C17,Prewedding & Related Parties,prewedding,engagement|bridal shower|bachelorette|rehearsal dinner,Related wedding celebrations
+C18,Birthdays & Anniversaries,celebrations,birthday invitation|anniversary|milestone party,Nonwedding social celebrations
+C19,Baby Showers & Family Events,family events,baby shower|gender reveal|family celebration,Family events
+C20,Event Marketing & Guest Communications,communications,event email|follow-up|guest communications|thank you card,Invitations and updates
+C21,General Event Operations,event operations,event planning|run of show|event operations|venue,Explicitly applicable to weddings or events

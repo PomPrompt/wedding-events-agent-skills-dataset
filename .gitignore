@@ -1,0 +1,12 @@
+# OS/editor/local artifacts
+.DS_Store
+Thumbs.db
+__pycache__/
+*.pyc
+.env
+.env.*
+!.env.example
+.venv/
+node_modules/
+*.log
+# Do not commit source Skill assets or credential files.
